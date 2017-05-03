@@ -37,7 +37,7 @@
    						</ul>
 					</li>
 					<li>
-						<li><a href="#">About Us<span class="sr-only">go to About us page</span></a></li>
+						<li><a href="AboutUs.jsp">About Us<span class="sr-only">go to About us page</span></a></li>
 					</li>						
 				</ul>
 			</div>
@@ -98,7 +98,9 @@
                 	<span class="sr-only">Next</span>
             	</a>
         	</div>
-        	<!-- /.carousel -->
+		</div>
+		<div>
+			<%@ include file="footer.jsp" %>
 		</div>
 	</body>
 </html>
